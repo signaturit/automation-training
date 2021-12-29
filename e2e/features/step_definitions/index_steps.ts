@@ -1,6 +1,5 @@
-import {Given, When, Then} from "cucumber";
+import {Given} from "cucumber";
 import {IndexPage} from "../../pages/indexPage";
-import {browser} from "protractor";
 
 const indexPage: IndexPage = new IndexPage();
 

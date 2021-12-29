@@ -35,10 +35,10 @@ module.exports = {
             .manage()
             .timeouts()
             .implicitlyWait(30000);
-        browser.driver
-            .manage()
-            .window()
-            .maximize();
+        // browser.driver
+            //.manage()
+            //.window()
+            //.maximize();
         Reporter.createDirectory(jsonReports);
     },
 
